@@ -1,8 +1,8 @@
 <?php
 
 $host = "database-1.cboyy2qac1jk.eu-north-1.rds.amazonaws.com";
-$user = "tanuja";
-$password = "tanuja98";
+$user = "user name";
+$password = "password";
 $database = "jobportal";
 
 $conn = mysqli_connect($host,$user,$password,$database);
