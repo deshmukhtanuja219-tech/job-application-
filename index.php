@@ -7,7 +7,7 @@
 
 <h2>Job Application Form</h2>
 
-<form action="insert.php" method="post">
+<form action="insert.php" method="post" enctype="multipart/form-data">
 
 Name:
 <input type="text" name="name"><br><br>
@@ -23,6 +23,9 @@ Experience:
 
 Phone:
 <input type="text" name="phone"><br><br>
+
+Resume:
+<input type="file" name="resume" accept=".pdf,.doc,.docx"><br><br>
 
 <input type="submit" value="Apply">
 
